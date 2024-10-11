@@ -2,3 +2,69 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", system-ui;
+  background-color: #111013;
+}
+
+.container {
+  width: 290px;
+  padding: 20px;
+  background-color: #34313a;
+  border-radius: 10px;
+}
+
+#display {
+  width: 100%;
+  padding: 18px 0;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #dddddd;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #202124;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #1a1a1b;
+}
+
+/* Unique button styles */
+.btn.operator {
+  background-color: #eb9901;
+}
+
+.btn.operator:hover {
+  background-color: #da8e03;
+}
+
+.btn.secondary {
+  background-color: #4d4c4c;
+}
+
+.btn.secondary:hover {
+  background-color: #424242;
+}
