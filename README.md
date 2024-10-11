@@ -27,10 +27,12 @@ To run the calculator locally, follow these steps:
    cd calculator
 3. **Open index.html in your web browser to view the calculator**.
 
-##Usage
+## Usage
+
 - Click the buttons to enter numbers and operators.
 - Use the C button to clear the display.
 - Press = to evaluate the expression.
 
-##Demo
+## Demo
+
 You can view the live demo of the project [here](https://calculatorpro9.netlify.app/).
