@@ -32,5 +32,5 @@ To run the calculator locally, follow these steps:
 - Use the C button to clear the display.
 - Press = to evaluate the expression.
 
-## Demo
-You can view the live demo of the project [here](https://github.com/juned012/Calculator.git).
+##Demo
+You can view the live demo of the project [here](https://calculatorpro9.netlify.app/).
